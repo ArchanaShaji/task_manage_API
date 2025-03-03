@@ -19,6 +19,9 @@ gem "bcrypt", "~> 3.1.7"
 
 gem 'jwt'
 
+gem 'graphql'
+gem 'pry'
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
@@ -42,6 +45,8 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  gem 'graphiql-rails'
 end
 
 
